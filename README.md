@@ -4,7 +4,7 @@ Exactly as it says on the box: Doom running on a dashcam! With a Wi-Fi connected
 
 This port is built off of Doom Generic, found here: https://github.com/ozkl/doomgeneric
 
-**TODO: Embed the gameplay demo video.**
+See `demo_gameplay.mp4` for a gamplay demo.
 
 ## Wishlist
 
