@@ -6,6 +6,8 @@ This port is built off of Doom Generic, found here: https://github.com/ozkl/doom
 
 See `demo_gameplay.mp4` for a gameplay demo.
 
+![Actually playable](images/decent_looking_gameplay.jpg)
+
 ## Wishlist
 
 Potential areas of improvement:
@@ -421,7 +423,6 @@ with open("colormap.img", "wb") as file:
 
 And so, after implementing the RGB screen emulation method, though still not perfect, the game's rendered output no longer assaults the user's vision.
 ![The game now looks decent](images/decent_looking_menu.jpg)
-![Now you can tell what you're looking at](images/decent_looking_gameplay.jpg)
 
 
 Perhaps I could have reverse engineered the main `cardv` application to see how it renders the camera feed properly, but I wasn't interested in identifying and tracing the usage of all the video-related device files under `/dev`. Not for a novelty project, at least.
